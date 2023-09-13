@@ -280,7 +280,7 @@ html {
     width: 0%;
   }
   100% {
-    width: 75%;
+    width: 30%;
   }
 }
 
@@ -293,36 +293,37 @@ html {
     width: 0%;
   }
   100% {
-    width: 89%;
+    width: 60%;
   }
 }
 
-.skills .skill .photoshop {
+.skills .skill .c {
   width: 0%;
-  animation: 2s photoshop forwards;
+  animation: 2s c forwards;
 }
-@keyframes photoshop {
+@keyframes c {
   0% {
     width: 0%;
   }
   100% {
-    width: 95%;
+    width: 70%;
   }
 }
 
-.skills .skill .wordpress {
+.skills .skill .net {
   width: 0%;
-  animation: 2s wordpress forwards;
+  animation: 2s net forwards;
 }
-@keyframes wordpress {
+@keyframes net {
   0% {
     width: 0%;
   }
   100% {
-    width: 81%;
+    width: 65%;
   }
 }
 
+/*
 .skills .skill .drupal {
   width: 0%;
   animation: 2s drupal forwards;
@@ -335,6 +336,7 @@ html {
     width: 55%;
   }
 }
+*/
 
 .skills .skill .comunicacion {
   width: 0%;
@@ -371,7 +373,7 @@ html {
     width: 0%;
   }
   100% {
-    width: 99%;
+    width: 60%;
   }
 }
 
@@ -384,7 +386,7 @@ html {
     width: 0%;
   }
   100% {
-    width: 65%;
+    width: 80%;
   }
 }
 
@@ -401,6 +403,11 @@ html {
   }
 }
 /* SECCION CURRICULUM */
+#id-educacion {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
 .curriculum {
   background-color: #1e2326;
   color: #fff;
