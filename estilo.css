@@ -185,6 +185,7 @@ html {
   font-size: 30px;
   margin-bottom: 10px;
 }
+
 .sobremi button {
   cursor: pointer;
   background-color: transparent;
@@ -198,6 +199,12 @@ html {
   position: relative;
   z-index: 10;
 }
+
+.dowload {
+  text-decoration: none;
+  color: #fff;
+}
+
 .sobremi button .overlay {
   position: absolute;
   top: 0;
